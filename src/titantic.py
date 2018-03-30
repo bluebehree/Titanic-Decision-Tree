@@ -296,9 +296,9 @@ def main():
     
     #========================================
     # part a: plot histograms of each feature
-    # print 'Plotting...'
-    # for i in xrange(d) :
-    #     plot_histogram(X[:,i], y, Xname=Xnames[i], yname=yname)
+    print 'Plotting...'
+    for i in xrange(d) :
+        plot_histogram(X[:,i], y, Xname=Xnames[i], yname=yname)
        
     #========================================
     # train Majority Vote classifier on data
